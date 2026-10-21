@@ -51,7 +51,7 @@ export default function Page() {
     <main>
       <header>
         <div>
-          <h1>Demo</h1>
+          <h1>Demo🧐sera mesmo?🧐</h1>
           <p className="sub">TA FUNCIONANDOOOOOOO</p>
         </div>
         <div className="pills">
