@@ -64,7 +64,7 @@ export default function Page() {
 
       {erro && (
         <p className="erro">
-          Não consegui falar com a API ({erro}). Ela está rodando? Veja docs/COMO-FUNCIONA.md.
+          Não consegui falar com a API mesmo ({erro}). Ela está rodando?🧐 Veja docs/COMO-FUNCIONA.md.
         </p>
       )}
 
@@ -89,7 +89,7 @@ export default function Page() {
               ))}
             </div>
             <div className="painel">
-              <h2>Gasto por mês</h2>
+              <h2>Gasto por mês 1000 conto</h2>
               <div className="meses">
                 {dash.mensal.map((m) => (
                   <div key={m.mes} title={`${m.mes}: ${brl.format(m.valor_total)} em ${m.pedidos} pedidos`}>
